@@ -1,0 +1,3 @@
+id alias userNC accountID
+1 amir a 13
+2 salam a 15 

@@ -1,0 +1,32 @@
+Users
+id UNIQUE INTEGER
+nc UNIQUE CHAR(10)
+password CHAR(64)
+name CHAR(200)
+phone UNIQUE CHAR(11)
+email UNIQUE CHAR(200)
+
+Admins
+id UNIQUE INTEGER
+username CHAR(200)
+password CHAR(200)
+
+Accounts
+id UNIQUE INTEGER
+userNC CHAR(10)
+alias CHAR(200)
+password CHAR(200)
+balance INTEGER
+
+Transactions
+id UNIQUE INTEGER
+dest INTEGER
+source INTEGER
+amount INTEGER
+date TIMESTAMP
+
+MostlyUsed
+id UNIQUE INTEGER
+alias CHAR(200)
+userNC CHAR(10)
+accountID UNIQUE INTEGER

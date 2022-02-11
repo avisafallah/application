@@ -1,0 +1,6 @@
+id nc password name phone email 
+1 0024275336 123456 Amir 09211759357 Amirferyg@gmail.com 
+2 d d d d d 
+3 b b b b b 
+4 h h h h h 
+5 c c c c c 
